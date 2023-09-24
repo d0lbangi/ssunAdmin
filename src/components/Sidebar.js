@@ -33,6 +33,11 @@ const SidebarLink = styled(NavLink)`
 
   &:hover {
     background-color: #D9D9D9;
+    color: #00D26D; /* 호버 시 글자 색을 바꿉니다. */
+  }
+
+  &.active {
+    color: #00D26D; /* 활성화된 링크의 글자색 */
   }
 `;
 
