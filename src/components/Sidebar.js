@@ -53,28 +53,25 @@ const SidebarHeader = styled.div`
 
 const SidebarLogoContainer = styled.div`
   display: flex;
-  width: 100%;
-  height: 192px;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 192px;
   cursor: pointer;
   background-color: #00D26D;
+  position: relative; /* 부모 요소를 relative로 설정 */
 `;
 
 const SidebarLogo = styled.img`
   width: 71.98px;
   height: 43.15px;
-  position: absolute;
-  top: 53px;
-  left: 82px;
+  position: absolute; /* 로고를 절대 위치로 설정 */
+  left: 7.5rem;
+  top: 60px; /* 원하는 위치로 조정 */
 `;
 
 const SidebarTitle = styled.span`
-  width: 92px;
-  height: 29px;
-  position: absolute;
-  top: 110px;
-  left: 72px;
   font-family: "Happiness Sans", sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -82,7 +79,11 @@ const SidebarTitle = styled.span`
   letter-spacing: 0em;
   text-align: center;
   color: #000000;
+  position: absolute; /* 로고를 절대 위치로 설정 */
+  left: 7rem;
+  top: 7rem; /* 원하는 위치로 조정 */
 `;
+
 
 const Spacer = styled.div`
   height: 2rem;
