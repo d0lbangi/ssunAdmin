@@ -1,0 +1,9 @@
+[협업용 메모장입니다.]
+
+-작업시 브랜치 분리해주세요.
+
+-컴포넌트 단위별 폴더 구조 : pages >> templates >> organisms >> molecules >> atoms
+
+-Todo : 
+1. 
+2. 
