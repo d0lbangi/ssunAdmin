@@ -4,11 +4,8 @@ import { NavLink } from 'react-router-dom';
 import styled from 'styled-components';
 
 const SidebarContainer = styled.section`
-  height: 1024px;
-  background-color: yellow;
   display: flex;
   flex-direction: column;
-  background-color: #D9D9D9;
 `;
 
 const SidebarContentsContainer = styled.section`
@@ -52,20 +49,19 @@ const SidebarHeader = styled.div`
 const SidebarLogoContainer = styled.div`
   display: flex;
   width: 100%;
+  height: 192px;
   flex-direction: column;
   align-items: center;
   cursor: pointer;
   background-color: #00D26D;
-  height: 192px;
 `;
 
 const SidebarLogo = styled.img`
   width: 71.98px;
   height: 43.15px;
-  margin-right: 10px;
   position: absolute;
   top: 53px;
-  left: 92px;
+  left: 82px;
 `;
 
 const SidebarTitle = styled.span`
@@ -73,7 +69,7 @@ const SidebarTitle = styled.span`
   height: 29px;
   position: absolute;
   top: 110px;
-  left: 82px;
+  left: 72px;
   font-family: "Happiness Sans", sans-serif;
   font-size: 14px;
   font-weight: 700;

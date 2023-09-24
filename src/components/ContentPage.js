@@ -15,7 +15,7 @@ import ReportManage from '../pages/ReportManage'
 import MakeBanner from '../pages/MakeBanner'
 import ManageBanner from '../pages/ManageBanner'
 
-const NavPage = () => {
+const ContentPage = () => {
   return (
     <React.Fragment>
       <section>
@@ -38,4 +38,4 @@ const NavPage = () => {
   );
 };
 
-export default NavPage;
+export default ContentPage;
