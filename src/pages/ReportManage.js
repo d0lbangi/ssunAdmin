@@ -96,7 +96,7 @@ const DatePickerStyled = styled(DatePicker)`
   width: 100px;
   height: 32px;
   border: 1px solid #9F9F9F;
-  padding: 0rem 0rem 0rem 1rem;
+  padding: 0rem 0rem 0rem 3rem;
   font-family: 'Happiness Sans', sans-serif;
   font-size: 18px;
   line-height: 23px;
@@ -190,10 +190,9 @@ const TableHeader = styled.th`
 
 const Table = styled.table`
   border-collapse: collapse;
-  width: 1024px;
+  width: 100%;
   height: 6rem;
   top: 12rem;
-  left: 1.875rem;
   background: #D9D9D9;
   position: absolute;
   margin-top: 12rem;

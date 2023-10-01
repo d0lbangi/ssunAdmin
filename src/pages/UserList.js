@@ -100,10 +100,9 @@ const SearchButton = styled.button`
 
 const Table = styled.table`
   border-collapse: collapse;
-  width: 1024px;
+  width: 100%;
   height: 6rem;
   top: 12rem;
-  left: 1.875rem;
   background: #D9D9D9;
   position: absolute;
 `;
