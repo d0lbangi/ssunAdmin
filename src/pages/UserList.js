@@ -147,7 +147,7 @@ const UserList = () => {
             </InfoContent>
           </InfoItem>
         </ChallengeInfo>
-              <Table>
+        <Table>
         <thead>
           <tr>
             <TableHeader>User ID</TableHeader>
@@ -194,7 +194,7 @@ const UserList = () => {
             </React.Fragment>
           ))}
         </tbody>
-      </Table>
+        </Table>
       </AdminContainer>
     </React.Fragment>
   );
